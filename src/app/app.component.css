@@ -1,0 +1,15 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.silent_hill{
+    width: 65vw;
+    height: 95px;
+}
+.navegar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
