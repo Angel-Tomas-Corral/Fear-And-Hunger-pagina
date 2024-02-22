@@ -1,0 +1,17 @@
+.btn {
+    -webkit-box-shadow: 1px 1px 4px 0px #f8f1f1e7; 
+    box-shadow: 1px 1px 4px 0px #fafafadc;
+}
+.btn:hover{
+    border-color: rgb(60, 247, 247);
+}
+.center{
+    text-align: center;
+    background-color: rgba(20, 78, 109, 0.205);
+}
+.letras{
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(148, 5, 5);
+}

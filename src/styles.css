@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body,
+.contenedor{
+    height: 100vh;
+    background-color: #000;
+    background-image: url('../../assets/fear.jpeg');
+    background-size: cover;
+    background-position: center;
+ } 
+ .vista{
+    height: 85%;
+ }

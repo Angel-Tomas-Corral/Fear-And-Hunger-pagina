@@ -1,0 +1,28 @@
+
+  <header class="navbar sticky-top">  
+    <div class="logo"><a href="https://es.wikipedia.org/wiki/Fear_%26_Hunger" target="_blank"><img src="../../assets/logo main.png" height="65px"></a></div>
+    <ul class="links">
+      <li><a href="Enemigos">Enemigos</a></li>
+      <li><a href="guia">Guia</a></li>
+      <li><a href="Descargar PC y Android">Descargar PC y Android</a></li>
+      <li><a href="Fondos">Fondos</a></li>
+</ul>
+    <a href="#" class="action_btn">Get started</a>
+
+       <i  (click)="toggle()" *ngIf="!isToggled"  class="bi bi-list toggle_btn"></i>
+
+    <div  class="menu"  *ngIf="isToggled">
+      <ul>
+        <li (click)="toggle()" ><a href="volver"> volver</a> </li>
+        <li (click)="toggle()"><a href="Enemigos">Enemigos</a></li>
+        <li (click)="toggle()"><a href="guia">Guia</a></li>
+        <li (click)="toggle()"><a href="Descargar PC y Android">Descargar PC y Android</a></li>
+        <li (click)="toggle()"><a href="Fondos">Fondos</a></li>
+        <li (click)="toggle()"><a href="#" class="action_btn">Get started</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <audio src="../../assets/OST.mp3" autoplay loop></audio>
+
+
