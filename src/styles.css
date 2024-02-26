@@ -9,4 +9,5 @@ body,
  } 
  .vista{
     height: 85%;
+   overflow-y: scroll;
  }

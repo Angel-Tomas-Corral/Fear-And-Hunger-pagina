@@ -1,0 +1,29 @@
+ table{
+    width: 60%;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: solid 2px red;
+    color: orange;
+    box-shadow: 5px 5px 5px rgba(241, 78, 78, 0.377);
+
+}
+th,td{
+    border: solid 1px red;
+    padding: 10px;
+}
+th{
+    color: rgb(255, 188, 64);
+    text-shadow: 2px 2px 2px black;
+}
+td{
+    color: rgba(1, 247, 255, 0.788);
+    text-shadow: 3px 3px 3px black;
+}
+::-webkit-scrollbar {
+    display: none;
+} 
+img{
+    width: 100%;
+    box-shadow: 3px 3px 3px black;
+}
