@@ -1,0 +1,18 @@
+.splash{
+    width: 100%;    
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    animation: ease-in-out 0.5s desvanecer;
+}
+
+
+    @keyframes desvanecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
