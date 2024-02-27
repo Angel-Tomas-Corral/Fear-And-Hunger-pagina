@@ -3,7 +3,7 @@ body,
 .contenedor{
     height: 100vh;
     background-color: #000;
-    background-image: url('../../assets/fear.jpeg');
+    background-image: url('./assets/fear.jpeg');
     background-size: cover;
     background-position: center;
  } 
@@ -11,3 +11,6 @@ body,
     height: 85%;
    overflow-y: scroll;
  }
+ ::-webkit-scrollbar {
+   display: none;
+} 

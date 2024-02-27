@@ -20,9 +20,7 @@ td{
     color: rgba(1, 247, 255, 0.788);
     text-shadow: 3px 3px 3px black;
 }
-::-webkit-scrollbar {
-    display: none;
-} 
+
 img{
     width: 100%;
     box-shadow: 3px 3px 3px black;
