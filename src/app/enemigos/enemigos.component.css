@@ -3,7 +3,7 @@
     margin: 100px auto;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
-    border: solid 2px red;
+     border: solid 2px red; 
     color: orange;
     box-shadow: 5px 5px 5px rgba(241, 78, 78, 0.377);
 
@@ -17,11 +17,15 @@ th{
     text-shadow: 2px 2px 2px black;
 }
 td{
-    color: rgba(1, 247, 255, 0.788);
+    color: rgba(246, 253, 253, 0.986);
     text-shadow: 3px 3px 3px black;
 }
 
 img{
     width: 100%;
-    box-shadow: 3px 3px 3px black;
+}
+@media  (max-width:780px) {
+   table{
+    width: 360px;
+   } 
 }

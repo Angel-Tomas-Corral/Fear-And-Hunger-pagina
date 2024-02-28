@@ -31,7 +31,7 @@ a:hover {
    
   
 }
-[href="https://es.wikipedia.org/wiki/Fear_%26_Hunger"]:hover,
+[routerLink="home"]:hover,
 [class="action_btn"]:hover{
     border-bottom: none;
   box-shadow: none;
