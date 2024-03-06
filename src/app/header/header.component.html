@@ -10,9 +10,9 @@
     
       <ul class="links">
       <li><a routerLink="enemigos">Enemigos</a></li>
-      <li><a href="guia">Guia</a></li>
-      <li><a href="Descargar PC y Android">Descargar PC y Android</a></li>
-      <li><a href="Fondos">Fondos</a></li>
+      <li><a routerLink="guia">Guia</a></li>
+      <li><a routerLink="descargas">Descargar PC y Android</a></li>
+      <li><a  routerLink="fondos">Galeria</a></li>
 </ul>
     <a href="#" class="action_btn">Get started</a>
 
@@ -20,16 +20,16 @@
 
     <div  class="menu"  *ngIf="isToggled">
       <ul>
-        <li (click)="toggle()" ><a routerLink="home"> volver</a> </li>
-        <li (click)="toggle()"><a routerLink="enemigos">Enemigos</a></li>
-        <li (click)="toggle()"><a href="guia">Guia</a></li>
-        <li (click)="toggle()"><a href="Descargar PC y Android">Descargar PC y Android</a></li>
-        <li (click)="toggle()"><a href="Fondos">Fondos</a></li>
+        <li (click)="toggle()" ><a routerLink="home" > volver</a> </li>
+        <li (click)="toggle()"><a routerLink="enemigos" >Enemigos</a></li>
+        <li (click)="toggle()"><a  routerLink="guia">Guia</a></li>
+        <li (click)="toggle()"><a routerLink="descargas">Descargar PC y Android</a></li>
+        <li (click)="toggle()"><a routerLink="fondos">Galeria</a></li>
         <li (click)="toggle()"><a href="#" class="action_btn">Get started</a></li>
       </ul>
     </div>
   </header>
- 
+
 
 
 

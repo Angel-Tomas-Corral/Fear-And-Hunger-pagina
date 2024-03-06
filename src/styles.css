@@ -11,6 +11,13 @@ body,
     height: 85%;
    overflow-y: scroll;
  }
+
+ @media(max-width: 360px){
+   .vista{
+      height: 80%;
+   }
+ }
+
  ::-webkit-scrollbar {
    display: none;
 } 

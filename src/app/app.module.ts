@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { EnemigosComponent } from './enemigos/enemigos.component';
 import { SplashComponent } from './splash/splash.component';
+import { GuiaComponent } from './guia/guia.component';
+import { DescargasComponent } from './descargas/descargas.component';
+import { FondosComponent } from './fondos/fondos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SplashComponent } from './splash/splash.component';
     FooterComponent,
     HomeComponent,
     EnemigosComponent,
-    SplashComponent
+    SplashComponent,
+    GuiaComponent,
+    DescargasComponent,
+    FondosComponent
   ],
   imports: [
     BrowserModule,
