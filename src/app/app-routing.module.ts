@@ -5,6 +5,7 @@ import { EnemigosComponent } from './enemigos/enemigos.component';
 import { GuiaComponent } from './guia/guia.component';
 import { DescargasComponent } from './descargas/descargas.component';
 import { FondosComponent } from './fondos/fondos.component';
+import { SaberMasComponent } from './saber-mas/saber-mas.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:'enemigos', component: EnemigosComponent},
   {path:'guia', component: GuiaComponent},
   {path:'descargas', component: DescargasComponent},
-  {path:'fondos', component: FondosComponent}
+  {path:'fondos', component: FondosComponent},
+  {path:'saber', component: SaberMasComponent}
 ];
 
 @NgModule({

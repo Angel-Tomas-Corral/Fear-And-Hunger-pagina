@@ -11,6 +11,7 @@ import { SplashComponent } from './splash/splash.component';
 import { GuiaComponent } from './guia/guia.component';
 import { DescargasComponent } from './descargas/descargas.component';
 import { FondosComponent } from './fondos/fondos.component';
+import { SaberMasComponent } from './saber-mas/saber-mas.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FondosComponent } from './fondos/fondos.component';
     SplashComponent,
     GuiaComponent,
     DescargasComponent,
-    FondosComponent
+    FondosComponent,
+    SaberMasComponent
   ],
   imports: [
     BrowserModule,

@@ -52,3 +52,20 @@ div.noticia {
   div.reset {
     clear: both;
   }
+
+  @media(max-width: 360px){
+    .articulos{
+      width: 100%;
+    }
+    img{
+      border-radius: 0px;
+    }
+    iframe{
+      width: 100%;
+      height: 200px;
+    }
+    div.noticia{
+      width: 100%;
+    }
+  }
+ 
