@@ -6,7 +6,6 @@ import { Component, Output } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'p-15';
   @Output() show: boolean = true;
 
   constructor() { }

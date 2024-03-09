@@ -1,9 +1,9 @@
 .btn {
     -webkit-box-shadow: 1px 1px 4px 0px #f8f1f1e7; 
-    box-shadow: 1px 1px 4px 0px #fafafadc;
+    box-shadow: 1px 1px 2px 0px #fafafadc;
 }
 .btn:hover{
-    border-color: rgb(60, 247, 247);
+    border-color: rgb(255, 166, 0);
 }
 .center{
     text-align: center;

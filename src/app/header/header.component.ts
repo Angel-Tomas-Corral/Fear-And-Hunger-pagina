@@ -10,8 +10,15 @@ export class HeaderComponent {
 
 
   toggle() {
+
     this.isToggled = !this.isToggled;
     console.log(this.isToggled);
+    
   }
+  
 
 }
+
+
+
+

@@ -1,0 +1,14 @@
+<div class="vista">
+  <div class="row container mx-auto mt-5 text-white">
+    <div class="col-lg-4 text-center" *ngFor="let tecno of tecnologias">
+      <img
+        src="{{ tecno.imagen }}"
+        width="{{tecno.width ? tecno.width : 140}}"
+        height="{{tecno.height ? tecno.height : 140}}"
+        class="bd-placeholder-img rounded-circle"
+      />
+      <p>{{ tecno.descripcion }}</p>
+    </div>
+  </div>
+</div>
+<audio src="../../assets/OST - Eastern Wind.mp3" autoplay></audio>
